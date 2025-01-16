@@ -23,7 +23,7 @@
     "express": "^4.21.2",
     "jquery": "^3.5.1",
     "materialize-css": "^1.0.0",
-    "mongoose": "^6.13.5",
+    "mongoose": "^8.9.5",
     "ng-storage": "^0.3.2",
     "underscore": "^1.12.1"
   }
