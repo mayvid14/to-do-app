@@ -26,4 +26,4 @@ var taskschema = new dbobject.mongoose.Schema({
         , default: 0
     }
 });
-module.exports = dbobject.db.model('tasks', taskschema);
+module.exports = dbobject.mongoose.model('tasks', taskschema);
