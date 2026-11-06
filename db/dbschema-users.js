@@ -16,4 +16,4 @@ var userschema = new dbobject.mongoose.Schema({
     }
     , tasks: []
 });
-module.exports = dbobject.db.model('users', userschema);
+module.exports = dbobject.mongoose.model('users', userschema);
